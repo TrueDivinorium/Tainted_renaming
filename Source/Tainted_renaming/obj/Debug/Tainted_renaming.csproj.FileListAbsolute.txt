@@ -1,0 +1,9 @@
+D:\Visual Studio Project\Tainted_renaming\Assemblies\Tainted_renaming.dll
+D:\Visual Studio Project\Tainted_renaming\Source\Tainted_renaming\obj\Debug\Tainted_renaming.csprojAssemblyReference.cache
+D:\Visual Studio Project\Tainted_renaming\Source\Tainted_renaming\obj\Debug\Tainted_renaming.csproj.CoreCompileInputs.cache
+D:\Visual Studio Project\Tainted_renaming\Source\Tainted_renaming\obj\Debug\Tainted_renaming.csproj.CopyComplete
+D:\Visual Studio Project\Tainted_renaming\Source\Tainted_renaming\obj\Debug\Tainted_renaming.dll
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Tainted_renaming\Source\Tainted_renaming\obj\Debug\Tainted_renaming.csproj.CoreCompileInputs.cache
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Tainted_renaming\Source\Tainted_renaming\obj\Debug\Tainted_renaming.dll
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Tainted_renaming\Assemblies\Tainted_renaming.dll
+D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Tainted_renaming\Source\Tainted_renaming\obj\Debug\Tainted_renaming.csproj.CopyComplete

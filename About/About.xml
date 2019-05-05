@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Tainted Names</name>
+	<author>Divinorium</author>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+	<description>
+Change the "T" of tainted to the start of the name instead of the end.
+	</description>
+</ModMetaData>
