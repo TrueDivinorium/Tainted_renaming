@@ -658,22 +658,27 @@ namespace Tainted_renaming
     class teste
     {
         [HarmonyPostfix]
-        private static bool NewThingLabel(Thing t, int stackCount, bool includeHp)
+        private static void NewThingLabel(Thing t, int stackCount, bool includeHp)
         {
             Apparel apparel = t as Apparel;
-            if (apparel != null && !apparel.WornByCorpse)
-                return false;
+            bool earlyOut = apparel == null;
+            if(earlyOut == true || apparel.WornByCorpse == false)
+            {
+                Log.Message("Hello World!"); //Outputs "Hello World!" to the dev console.
+                return;
+            }
+            Log.Message("Bye World!"); //Outputs "Hello World!" to the dev console.
+
             string text = GenLabel.ThingLabel(t.def, t.Stuff, 1);
             QualityCategory cat;
             bool flag = t.TryGetQuality(out cat);
             int hitPoints = t.HitPoints;
             int maxHitPoints = t.MaxHitPoints;
             bool flag2 = t.def.useHitPoints && hitPoints < maxHitPoints && t.def.stackLimit == 1 && includeHp;
-            bool flag3 = apparel != null && apparel.WornByCorpse;
-            if (flag || flag2 || flag3)
+            if (flag || flag2 || earlyOut)
             {
                 text += " (31231";
-                if (flag3)
+                if (earlyOut)
                 {
                     if (flag || flag2)
                     {
@@ -700,7 +705,7 @@ namespace Tainted_renaming
                 text = text + " x" + stackCount.ToStringCached();
             }
             string ___result = text;
-            return true;
+            return;
         }
     }
 }
